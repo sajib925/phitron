@@ -44,6 +44,8 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
+
+    // x mane index v mane value ei khane je index number deya hobe and then je value ta deya hobe sei ta porer line array te push kora hoise.
     int x,v;
     scanf("%d %d", &x,&v);
     a[x] = v;
